@@ -1,0 +1,10 @@
+Modal - Login prompt
+Alert - Login Reject
+
+Accordion - Album List & Description
+Collapse - Included above
+
+Toasts - Search Reject
+
+spinners - loading
+placeholder - loading too
