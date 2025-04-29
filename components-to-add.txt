@@ -1,10 +1,22 @@
+Navbar
+Dropdowns
+Breadcrumb - Page especifying
+
 Modal - Login prompt
 Alert - Login Reject
 
+Carousel 
+Progress - Inside Carousel
+
+Badge - Band on Tour
+Popovers - "Buy Ticket"
 Accordion - Album List & Description
 Collapse - Included above
 
+Paginagion - Couple pages on bands
 Toasts - Search Reject
+
+Offcanvas - Quick Access
 
 spinners - loading
 placeholder - loading too

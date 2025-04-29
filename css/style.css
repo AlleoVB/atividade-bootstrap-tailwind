@@ -1,0 +1,21 @@
+/* img{
+    height: 100%;
+} */
+
+.content-spacing{
+    margin-bottom: 3rem;
+}
+
+.carousel-custom{
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.carousel-progress{
+    height: 15px;
+}
+
+.card-ranking{
+    border: none;
+}
+

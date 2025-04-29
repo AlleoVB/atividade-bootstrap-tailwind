@@ -1,0 +1,3 @@
+carouselMusicaly
+carouselProgressBar
+carouselProgress
