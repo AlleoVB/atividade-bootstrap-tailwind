@@ -1,0 +1,15 @@
+.card{
+    overflow: hidden;
+    padding: 0;
+    max-height: 15rem;
+}
+
+.card:hover{
+    min-height: fit-content;
+    padding: 1rem 1rem 0;
+    overflow: visible;
+}
+
+.search-results{
+    gap: 2rem;
+}

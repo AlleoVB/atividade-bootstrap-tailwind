@@ -2,6 +2,11 @@
     height: 100%;
 } */
 
+a{
+    color: #333;
+    text-decoration: none;
+}
+
 .content-spacing{
     margin-bottom: 3rem;
 }
