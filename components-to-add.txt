@@ -3,7 +3,6 @@ Dropdowns
 Breadcrumb - Page especifying
 
 Modal - Login prompt
-Alert - Login Reject
 
 Carousel 
 Progress - Inside Carousel
@@ -20,3 +19,7 @@ Offcanvas - Quick Access
 
 spinners - loading
 placeholder - loading too
+
+
+
+Alert

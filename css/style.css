@@ -1,6 +1,10 @@
-/* img{
-    height: 100%;
-} */
+.bg-main{
+    background: rgb(155, 122, 252);
+}
+
+img{
+    width: 100%;
+}
 
 a{
     color: #333;
@@ -10,6 +14,21 @@ a{
 .content-spacing{
     margin-bottom: 3rem;
 }
+
+.nav-login{
+    justify-self: flex-end;
+    padding: .5rem;
+}
+
+.lModalBtn{
+    padding-top: 1rem;
+    
+    & .col {
+        padding: 0;
+    }
+}
+
+
 
 .carousel-custom{
     overflow: hidden;

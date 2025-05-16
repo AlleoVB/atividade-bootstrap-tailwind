@@ -1,0 +1,31 @@
+.author-title{
+    align-content: center;
+}
+
+.photo-scroll, .content-scroll{
+    height: 45rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.photo-scroll > .row{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.photo-scroll > .row > img{
+    width: 100%;
+}
+
+.profile-disco > .row > .col > figure {
+    width: 8rem;
+}
+
+.profile-disco > .row > .col > figure > img{
+    border: 1px solid #777;
+    aspect-ratio: 1/1;
+}
+
+.disco-align > .col{
+    justify-items: center;
+}
