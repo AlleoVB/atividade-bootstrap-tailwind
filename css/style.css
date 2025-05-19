@@ -1,5 +1,5 @@
 .bg-main{
-    background: rgb(155, 122, 252);
+    background: linear-gradient(rgb(155, 122, 252) 20%, rgb(46, 28, 97) 80%, #000  100%);
 }
 
 img{
