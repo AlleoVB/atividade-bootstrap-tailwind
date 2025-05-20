@@ -1,5 +1,8 @@
 .bg-main{
+    
     background: linear-gradient(rgb(155, 122, 252) 20%, rgb(46, 28, 97) 80%, #000  100%);
+
+    padding-bottom: 2rem;
 }
 
 img{
@@ -15,6 +18,10 @@ a{
     margin-bottom: 3rem;
 }
 
+.nopads{
+    padding: 0 ;
+}
+
 .nav-login{
     justify-self: flex-end;
     padding: .5rem;
@@ -28,7 +35,9 @@ a{
     }
 }
 
-
+.carousel-item > img{
+    max-height: 800px;
+}
 
 .carousel-custom{
     overflow: hidden;

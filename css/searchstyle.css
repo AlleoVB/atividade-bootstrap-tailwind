@@ -2,13 +2,15 @@
     overflow: hidden;
     padding: 0;
     max-height: 15rem;
+    transition: ease-in-out 500ms;
 }
 
 .card:hover{
     min-height: fit-content;
     padding: 1rem 1rem 0;
-    overflow: visible;
+    overflow: visible;   
 }
+
 
 .search-results{
     gap: 2rem;

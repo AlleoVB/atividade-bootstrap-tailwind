@@ -8,8 +8,132 @@
     <link rel="stylesheet" href="../css/artiststyle.css">
     <title>Woodkid</title>
 </head>
-<body>
-    <div class="row bg-main">
+<body class="bg-main container-fluid">
+  <header class="row">
+    <div class="col nopads">
+      <nav
+        class="navbar navbar-expand-lg bg-dark border-bottom border-body content-spacing"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid navwide">
+          <a
+            class="navbar-brand"
+            href="../index.html"
+            style="padding-left: 0.5rem"
+            >Onlybands</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../search.html">Biblioteca</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Mais
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Imagine</a></li>
+                  <li><a class="dropdown-item" href="#">+</a></li>
+                  <li><a class="dropdown-item" href="#">Coisas</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a
+            type="button"
+            class="nav-login text-light"
+            data-bs-toggle="modal"
+            data-bs-target="#loginModal"
+          >
+            Login
+          </a>
+        </div>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="loginModal"
+          tabindex="-1"
+          aria-labelledby="loginInsertBox"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="loginInsertBox">Login</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form class="container-fluid" method="post" action="#">
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="row">
+                        <label for="lemail">E-mail:</label>
+                        <input type="email" name="lemail" id="lemail" />
+                      </div>
+                      <div class="row">
+                        <label for="lsenha">Senha:</label>
+                        <input type="password" name="lsenha" />
+                      </div>
+                      <div class="col"></div>
+                    </div>
+                  </div>
+                  <div class="row lModalBtn">
+                    <div class="col">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                      <button type="submit" class="btn btn-primary">
+                        Confirmar
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header> 
+
+    <div class="row">
         <div class="col-1"></div>
         <div class="col-10">
             <div class="row content-spacing">
